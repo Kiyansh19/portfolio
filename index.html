@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashis's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="head" class="head">
+        <div class="theme-switcher">
+            <div class="theme-dot black" data-color="black" title="Black Theme"></div>
+            <div class="theme-dot white" data-color="white" title="White Theme"></div>
+            <div class="theme-dot purple" data-color="purple" title="purple Theme"></div>
+        </div>
+        <img src="boy.jpg" alt="Profile Picture">
+        <h1>Hi,I'm Aashis<span class="wave">👋</span></h1>
+        <p id="des" class="des">Building digital <span class="highlight">products</span>, brands, and experiences.</p>
+        <nav id="nav">
+            <a href="#about" class="nav">About</a>
+            <a href="#projects" class="nav">Projects</a>
+            <a href="#contact" class="nav">Contact</a>
+        </nav>
+    </header>
+
+    <section class="brands">
+     <span ><img src="css.png" alt="Brand 1" > <div class="progress-container"><div class="progress-bar" id="bar1"></div><div class="percentage" id="text1">0%</div></div> Proficient</span>   
+
+       <span><img src="jswalla.webp" alt="Brand 2" ><div class="progress-container"><div class="progress-bar" id="bar3"></div><div class="percentage" id="text3">0%</div></div>Advanced</span> 
+
+       <span><img src="react.png" alt="Brand 3">  <div class="progress-container"><div class="progress-bar" id="bar2"></div><div class="percentage" id="text2">0%</div></div>Intermediate</span> 
+
+       <span><img src="logonext.svg" alt="Brand 4"  > <div class="progress-container"><div class="progress-bar" id="bar5"></div><div class="percentage" id="text5">0%</div></div>Learner</span>  
+
+       <span><img src="bootstrap.svg" alt="Brand 5"><div class="progress-container"><div class="progress-bar" id="bar4"></div><div class="percentage" id="text4">0%</div></div>Newbie</span> 
+    </section>
+
+    <section id="about" class="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hi, I'm Aashis, a passionate <span class="highlight">web developer</span> specializing in front-end technologies like HTML, CSS, JavaScript, React, and Next.js. I focus on creating responsive, user-friendly websites that deliver seamless and dynamic experiences</p>
+            <p>I focus on building fast, functional, and visually appealing websites. Always learning and excited to collaborate on innovative projects</p>
+        </div>
+        <div class="image-container">
+            <img src="boy about.jpeg" alt="Pranav's Image">
+        </div>
+    </section>
+    
+    
+    <section class="services">
+        <h2>Collaborate with brands and agencies to <span class="highlight">create</span> impactful results.</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>UX & UI</h3>
+                <p>Designing interfaces that are intuitive, efficient, and enjoyable to use.</p>
+            </div>
+            <div class="service-card">
+                <h3>Web & Mobile App</h3>
+                <p>Transforming ideas into exceptional web and mobile app experiences.</p>
+            </div>
+            <div class="service-card">
+                <h3>Design & Creative</h3>
+                <p>Crafting visually stunning designs that connect with your audience.</p>
+            </div>
+            <div class="service-card">
+                <h3>Development</h3>
+                <p>Bringing your vision to life with the latest technology and design trends.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio showcasing my work and skills with certifications and contact page</p>
+        </div>
+        <div class="project-card">
+            <h3>E-commerce Site</h3>
+            <p>An online platform for buying and selling products. adding to the card is also it's feature</p>
+        </div>
+        <div class="project-card">
+            <h3>Blog Platform</h3>
+            <p>A platform for writing and sharing blog posts related to different topics. mostly the trending ones related to IT sector</p>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #ffffff"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff"></i></a>
+        </div>
+    </section>
+    
+    <!-- up arrow button  -->
+    <div class="scroll-progress"></div>
+<a href="#head" class="up-arrow" title="Back to top">&#8593;</a>
+
+
+    <footer>
+        &copy; 2025 Aashis. All rights reserved.
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
